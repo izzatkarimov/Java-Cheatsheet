@@ -10,7 +10,7 @@
 
 ## Notes
 
-####  :right_arrow: U+27A1  _What is Java?_
+#### ➡️ _What is Java?_
 - Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. In more details, Java has the following characteristics:
     - High Level Language
     - Object-Oriented
