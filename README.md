@@ -6,7 +6,6 @@
 
 | Concepts | Notes |
 | --- | --- |
-|  |  |
-| Anatomy of a Java Program |  |
+| Anatomy of a Java Program | #anatomy-of-a-java-program |
 
 #### Anatomy of a Java Program
