@@ -5,8 +5,8 @@
 ## Contents
 | Concepts | Notes |
 | --- | --- |
-| Anatomy of a Java Program | #anatomy-of-a-java-program |
+| Anatomy of a Java Program | [Click Here!](#anatomy-of-a-java-program) |
 
 ## Notes
 
-#### Anatomy of a Java Program
+#### Anatomy of a Java Program [Go Back to Contents](#contents)
