@@ -35,4 +35,4 @@ Output:
 
 Hello, World!
 ```
-[ ⬆️ **Back to Top** ⬆️ ](#contents)
+⬆️ [**Back to Top**](#contents)
