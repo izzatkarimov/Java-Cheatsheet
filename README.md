@@ -10,3 +10,16 @@
 ## Notes
 
 #### Anatomy of a Java Program | [Go Back to Contents](#contents)
+```
+package com.mywebsite;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+
+Output:
+
+Hello, World!
+```
