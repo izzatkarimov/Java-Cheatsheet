@@ -9,4 +9,4 @@
 
 ## Notes
 
-#### Anatomy of a Java Program [Go Back to Contents](#contents)
+#### Anatomy of a Java Program | [Go Back to Contents](#contents)
