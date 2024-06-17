@@ -19,7 +19,7 @@ public class Main {
     }
 }
 
-**Output:**
+Output:
 
 Hello, World!
 ```
