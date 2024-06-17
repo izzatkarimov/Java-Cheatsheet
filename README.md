@@ -5,11 +5,23 @@
 ## Contents
 | Concepts | Notes |
 | --- | --- |
+| What is Java? | [Click Here!](#anatomy-of-a-java-program) |
 | Anatomy of a Java Program | [Click Here!](#anatomy-of-a-java-program) |
 
 ## Notes
 
-#### Anatomy of a Java Program | [Go Back to Contents](#contents)
+#### _What is Java?_
+- Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. In more details, Java has the following characteristics:
+    - High Level Language
+    - Object-Oriented
+    - Platform-Independent
+    - Compiled and Interpreted
+    - Strongly Typed
+    - Automatic Memory Management
+    - Concurrent
+    - Robust and Secure
+
+#### _Anatomy of a Java Program_
 ```
 package com.mywebsite;
 
@@ -23,3 +35,4 @@ Output:
 
 Hello, World!
 ```
+[Back to Top](#contents)
