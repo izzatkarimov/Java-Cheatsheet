@@ -32,20 +32,19 @@ public class HelloWorld {
     }
 }
 ```
-
-`public class HelloWorld`:
+- `public class HelloWorld`:
     - This code declares the class HelloWorld
     - `public` - Access Modifier. This indicates that this class is accessible from any other class.
     - `class` - This is a special keyword in Java and is used to create a class.
     - `HelloWorld` - This is the name of the class. By convention, class names in Java should start with an uppercase letter.
-`public static void main(String[] args)`:
+- `public static void main(String[] args)`:
     - This code declares the main method
     - `public` - Access Modifier. This indicates that the method `main` is accessible from any other class.
     - `static` - This is a special keyword in Java. This keyword means that the method belongs to the class rather than an instance of the class. This means that only one instance of a static member exists, even if you create multiple objects of the class, or if you don't create any. It will be shared by all object This allows the Java runtime to call this method without creating an instance of the class. 
     - `void` - This means that the method does not return any value.
     - `main`- This is the name of the method. The main method is special because it is the entry point of any Java application.
     - `String[] args` - This is a parameter of the main method. It represents an array of String objects.
-`System.out.println("Hello, World!")`:
+- `System.out.println("Hello, World!")`:
     - This code prints to the console
     - `println` - This is a method of the PrintStream class. It prints the argument passed to it (in this case, "Hello, World!") to the console, followed by a newline.
 
