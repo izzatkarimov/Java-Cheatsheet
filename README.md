@@ -32,6 +32,7 @@ public class HelloWorld {
     }
 }
 ```
+
 `public class HelloWorld`:
     - This code declares the class HelloWorld
     - `public` - Access Modifier. This indicates that this class is accessible from any other class.
