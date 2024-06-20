@@ -48,7 +48,24 @@ public class HelloWorld {
     - This code prints to the console
     - `println` - This is a method of the PrintStream class. It prints the argument passed to it (in this case, "Hello, World!") to the console, followed by a newline.
 
-
+#### ➡️ _Literals in Java_
+- What are literals (to begin with)?
+> Consider literals as groceries. To use them, usually you need to store them somewhere. Typically, they are stored in variables, which you can think of as containers designed to hold a specific type of data. Variables can only store matching data. You wouldn't want to accidentally put honey in a cardboard cereal box or pour cereal into a salt shaker. To prevent such mistakes, learn to distinguish between the basic literals: integer numbers, strings, and characters.
+- Integers
+  - Examples: 0, 1, 2, 10, 11, -100
+  - Example in Code: int numApples = 1000;
+  - Example in Code with better readability: int numPackedApples = 1_000_000;
+- Characters
+  - Definition: A character is a single symbol, denoted with single quotes. You can use character literals to represent single letters like 'A', 'x', digits from '0' to '9', whitespaces (' '), and other characters or symbols like '$'.
+  - Example: char charOne = '1'
+  - Fun fact: characters sit between integers and strings: they resemble strings, yet you can do math with them.
+- Strings
+  - Examples: "text", "I want to know Java", "123456", "e-mail@gmail.com"
+  - Note the difference:
+    ```
+    char singleQuoted = 'A'
+    String doubleQuoted = "A"
+    ```
 
 
 ----
