@@ -1,4 +1,4 @@
-# Java Cheatsheet
+# ♨ Java Cheatsheet
 
 > My Java Notes - My notes on the key concepts of Java.
 
