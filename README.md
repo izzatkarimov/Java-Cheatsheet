@@ -479,5 +479,24 @@ String result = a == b ? "equal" :
                 a > b ? "more" : "less";
 ```
 
+## ➡️ _Increment & Decrement_
+### Prefix and Postfix forms
+Both increment and decrement operators have two forms, which are very important when using the result in the current statement:
+- The Prefix Form: the prefix form (++n or --n) increases or decreases the value of a variable before it is used.
+- The Postfix Form: the postfix form (n++ or n--) increases or decreases the value of a variable after it is used.
+  Examples:
+  ```
+  Prefix:
+  int a = 4;
+  int b = ++a;
+  System.out.println(a); // 5
+  System.out.println(b); // 5
+
+  Postfix:
+  int a = 4;
+  int b = a++;
+  System.out.println(a); // 5
+  System.out.println(b); // 4
+  ```
 ----
 ⬆️ [**Back to Top**](#contents)
