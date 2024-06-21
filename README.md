@@ -136,10 +136,10 @@ var version = 10; // int
 
 ### Naming Variables
 Java has some rules for naming varibles:
-    - names are case-sensitive
-    - a name can inclue Unicode letters, digits, and two special characters ($, _);
-    - a name cannot start with a digit;
-    - a name must not be a keyword (class, static, int, etc. are illegal names).
+- names are case-sensitive
+- a name can inclue Unicode letters, digits, and two special characters ($, _);
+- a name cannot start with a digit;
+- a name must not be a keyword (class, static, int, etc. are illegal names).
 Based on these rules, you may conclude that whitespaces are not allowed in the name of a variable. 
 It is important not to break these rules; otherwise, the program will not work
 
@@ -150,10 +150,10 @@ number, $ident, bigValue, _val, abc, k, var
 
 ### Naming Conventions for Variables
 Also, there are the following conventions for naming variables:
-    - if a variable name is a single word it should be in lowercase (for instance: number, price);
-    - if a variable name includes multiple words it should be in lowerCamelCase, i.e. the first word should be in lowercase and each word after the first should have its first letter written in uppercase (for instance: numberOfCoins);
-    - variable names should not start with _ and $ characters, although they are allowed;
-    - choose a name that makes sense, e.g. score makes more sense than s, although they are both valid.
+- if a variable name is a single word it should be in lowercase (for instance: number, price);
+- if a variable name includes multiple words it should be in lowerCamelCase, i.e. the first word should be in lowercase and each word after the first should have its first letter written in uppercase (for instance: numberOfCoins);
+- variable names should not start with _ and $ characters, although they are allowed;
+- choose a name that makes sense, e.g. score makes more sense than s, although they are both valid.
 ## Reading Input with Scanner
 The simplest method to obtain data from the standard input is using the standard class Scanner. It allows a program to read values of various types, like strings or numbers, from the standard input. To use this class:
 1. You should add the following import statement at the top of your file with the source code.
