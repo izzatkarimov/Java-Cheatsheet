@@ -67,7 +67,34 @@ public class HelloWorld {
     char singleQuoted = 'A'
     String doubleQuoted = "A"
     ```
-
-
+#### ➡️ _Printing Data_
+- printlm() vs print():
+  - println()
+    - The println method displays the passed string followed by a new line on the screen (print-line). For example, the following code snippet prints four lines:
+        ```
+        System.out.println("I ");
+        System.out.println("know ");
+        System.out.println("Java ");
+        System.out.println("well.");
+        ```
+        Output:
+        ```
+        I
+        know
+        Java
+        well.
+        ```
+  - print()
+    - The print method displays the value that was passed in and places the cursor (the position where we display a value) after it. For example, the code below outputs all strings in a single line:
+        ```
+        System.out.print("I ");
+        System.out.print("know ");
+        System.out.print("Java ");
+        System.out.print("well.");
+        ```
+        Output:
+        ```
+        I know Java well.
+        ```
 ----
 ⬆️ [**Back to Top**](#contents)
