@@ -10,7 +10,7 @@
 
 ## Notes
 
-#### ➡️ _What is Java?_
+## ➡️ _What is Java?_
 Java is a high-level, class-based, object-oriented programming language. James Gosling at Sun Microsystems (now part of Oracle Corporation) designed it, and it was released in 1995. The language was developed with the "Write Once, Run Anywhere" (WORA) philosophy. This principle underscores Java's key feature - platform independence, allowing the same Java program to run on multiple platforms without modifications.
 
 Java is designed to be both simple and powerful. It borrows its syntax from C and C++, but eliminates certain low-level programming complexities, such as explicit memory management and multiple inheritance found in C++. Known for its robustness, security, and simplicity, Java has become a popular choice among developers worldwide.
@@ -24,7 +24,7 @@ Java is designed to be both simple and powerful. It borrows its syntax from C an
     - Concurrent
     - Robust and Secure
 
-#### ➡️ _Hello World!_
+## ➡️ _Hello World!_
 ```
 public class HelloWorld {
     public static void main(String[] args) {
@@ -49,7 +49,7 @@ public class HelloWorld {
     - This code prints to the console
     - `println` - This is a method of the PrintStream class. It prints the argument passed to it (in this case, "Hello, World!") to the console, followed by a newline.
 
-#### ➡️ _Literals in Java_
+## ➡️ _Literals in Java_
 - What are literals (to begin with)?
 > Consider literals as groceries. To use them, usually you need to store them somewhere. Typically, they are stored in variables, which you can think of as containers designed to hold a specific type of data. Variables can only store matching data. You wouldn't want to accidentally put honey in a cardboard cereal box or pour cereal into a salt shaker. To prevent such mistakes, learn to distinguish between the basic literals: integer numbers, strings, and characters.
 - Integers
@@ -67,7 +67,7 @@ public class HelloWorld {
     char singleQuoted = 'A'
     String doubleQuoted = "A"
     ```
-#### ➡️ _Printing Data_
+## ➡️ _Printing Data_
 - println() vs print():
   - println()
     - The println method displays the passed string followed by a new line on the screen (print-line). For example, the following code snippet prints four lines:
@@ -96,5 +96,42 @@ public class HelloWorld {
         ```
         I know Java well.
         ```
+## ➡️ _Variables_
+### Declaring and Initializing a Variable
+In programming, a variable is a placeholder for storing a value of a particular type: a string, a number, or something else.
+Every variable has a name (also known as an identifier) to distinguish it from others. Before you start using a variable, you must declare it. The general form of declaration is the following:
+```
+DataType variableName = initialization;
+```
+According to this declaration, we can declare the following variables of different types:
+```
+String language = "Java";
+String dayOfWeek = "Monday";
+int numberOfApples = 5;
+int age = 22;
+```
+One important feature of variables is that they can be changed. You don't need to declare a variable again to change its value; just assign a new value to it using the = operator.
+
+Let's declare a variable named dayOfWeek and print its value before and after changing:
+```
+String dayOfWeek = "Monday";
+System.out.println(dayOfWeek); // Monday
+
+dayOfWeek = "Tuesday";
+System.out.println(dayOfWeek); // Tuesday
+```
+There is one restriction for variables: you can only assign a value of the same type as the type of the initial variable. So, the following code is not correct:
+```
+int number = 10;
+number = 11; // ok
+number = "twelve"; // it does not work!
+```
+### Type Inference
+Since Java 10, you can write var instead of a specific type to force automatic type inference based on the type of assigned value:
+```
+var language = "Java"; // String
+var version = 10; // int
+```
+> This feature can be a bit controversial: on the one hand, it allows your code to be more concise. On the other hand, since it doesn't indicate the type explicitly, it may affect the code readability in a bad way. For now, it's enough to understand the basic idea. We will not use type inference in our theory so that our educational platform is suitable for people who use earlier versions of Java. But if you would like to practice it, you may use type inference in our exercises as they fully support Java 10.
 ----
 ⬆️ [**Back to Top**](#contents)
