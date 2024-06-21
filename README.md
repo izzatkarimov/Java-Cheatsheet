@@ -411,8 +411,8 @@ boolean b = true && !false; // true, because !false is evaluated before &&
 Java provides six relational operators to compare numbers:
 - == (equal to)
 - != (not equal to)
-- > (greater than)
-- >= (greater than or equal to)
+-  > (greater than)
+-  >= (greater than or equal to)
 - < (less than)
 - <= (less than or equal to)
 The result of applying a relational operator to its operands will be boolean (true or false) regardless of the types of operands.
