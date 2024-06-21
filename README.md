@@ -9,8 +9,8 @@
 | Anatomy of a Java Program | [Click Here!](#anatomy-of-a-java-program) |
 
 ## Notes
-> [!What is Java?]
-> Coming Soon.
+> [!Note]
+> What is Java?.
 
 #### ➡️ _What is Java?_
 - Java is a high-level, class-based, object-oriented programming language. James Gosling at Sun Microsystems (now part of Oracle Corporation) designed it, and it was released in 1995. The language was developed with the "Write Once, Run Anywhere" (WORA) philosophy. This principle underscores Java's key feature - platform independence, allowing the same Java program to run on multiple platforms without modifications.
