@@ -68,7 +68,7 @@ public class HelloWorld {
     String doubleQuoted = "A"
     ```
 #### ➡️ _Printing Data_
-- printlm() vs print():
+- println() vs print():
   - println()
     - The println method displays the passed string followed by a new line on the screen (print-line). For example, the following code snippet prints four lines:
         ```
