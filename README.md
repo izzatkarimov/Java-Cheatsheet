@@ -243,5 +243,51 @@ public class Main {
     }
 }
 ```
+## Coding Style Conventions
+> Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread. – The Tidyverse Style Guide by Hadley Wickham
+
+In most cases, companies and individual developers do not create their own style conventions. There are two generally accepted Java conventions that are used all over the world:
+Oracle Code Conventions
+Google Style Guide
+Sometimes they could be modified or extended by a particular company to meet their needs.
+Now let's look at some of the most basic Java conventions according to the Oracle Code Conventions.
+### The number of Spaces
+The first convention is to use 4 spaces as the unit of indentation in the whole program code. You have already seen our code examples before and you might note that we used this value there.
+Good:
+```
+public class NumberOfSpacesExample {
+
+    public static void main(String[] args) {
+        System.out.println("Hi!");
+        System.out.println("I'm a Java program.");
+    }
+}
+```
+Ver Bad:
+```
+public class NumberOfSpacesExample {
+
+   public static void main(String[] args) {
+         System.out.println("Hi!");
+System.out.println("I'm a Java program.");
+ }
+  }
+```
+Sometimes tabulation is used to create an indentation. However, tab may correspond to 8 spaces instead of 4 in some IDEs, hence this note.
+### The location of curly braces
+1. Put the opening curly brace at the end of the line where the block begins.
+2.Put the closing curly brace at the beginning of the next line.
+```
+public class NumberOfSpacesExample {
+
+    public static void main(String[] args) {
+        System.out.println("Hi!");
+        System.out.println("I'm a Java program.");
+    }
+}
+```
+### The length of a line
+The last recommendation concerns the maximum length of a line. The Oracle Code Conventions propose avoiding lines longer than 80 characters. Plenty of developers consider this restriction as outdated since modern monitors can easily display longer lines, whereas others would go on following this rule, which is handy, for example, if laptops are used. Keeping ourselves off this dispute, we will use 80 characters in the course to avoid scrollbars in our examples and web code editor. We recommend that you do the same while learning here, but keep in mind that you can violate this limitation after you start working on a real project or learning elsewhere. Other popular limit values are 100, 120, and sometimes even 140 characters.
+
 ----
 ⬆️ [**Back to Top**](#contents)
