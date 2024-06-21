@@ -311,7 +311,7 @@ public class NumberOfSpacesExample {
 The last recommendation concerns the maximum length of a line. The Oracle Code Conventions propose avoiding lines longer than 80 characters. Plenty of developers consider this restriction as outdated since modern monitors can easily display longer lines, whereas others would go on following this rule, which is handy, for example, if laptops are used. Keeping ourselves off this dispute, we will use 80 characters in the course to avoid scrollbars in our examples and web code editor. We recommend that you do the same while learning here, but keep in mind that you can violate this limitation after you start working on a real project or learning elsewhere. Other popular limit values are 100, 120, and sometimes even 140 characters.
 
 ## ➡️ _Arithmatic Operations_
-#### Binary Arithmatic Operators:
+### Binary Arithmatic Operators:
 - addition +
 - subtraction -
 - multiplication *
@@ -340,7 +340,7 @@ System.out.println(10 % 3); // prints 1, because 10 divided by 3 leaves a remain
 System.out.println(12 % 4); // prints 0, because 12 divided by 4 leaves no remainder
 System.out.println(5 % 9); // prints 5, because 5 divided by 9 leaves a remainder of 5
 ```
-#### Unary Operators
+### Unary Operators
 In Java, a unary operator is an operator that performs an operation on a single operand, unlike binary operators that require two operands.
 The unary plus operator indicates a positive value. It's an optional operator.
 ```
@@ -351,13 +351,76 @@ The unary minus operator negates a value or an expression.
 System.out.println(-8);  // prints -8
 System.out.println(-(100 + 4)); // prints -104
 ```
-#### The precedence order
+### The precedence order
 There is a precedence order of all arithmetic operators, including parentheses. The list below is sorted from the highest to the lowest precedence level.
 1. Parantheses
 2. Unary Plus / Minus
 3. Multiplication, division, the remainder
 4. addition, subtraction
 
-## ➡️ _Arithmatic Operations_
+## ➡️ _Booleans_
+[!Note]
+> You cannot assign an integer value to a boolean. In Java, 0 is not the same as false.
+
+### Logical Operators
+Variables of the boolean type are often used to build logical expressions using logical operators. Java has four logical operators: NOT, AND, OR, and XOR.
+- NOT
+  NOT is a unary operator that reverses the boolean value. It is denoted as !.
+  ```
+  boolean f = false; // f is false
+  boolean t = !f;    // t is true
+  ```
+- AND
+  AND is a binary operator that returns true if both operands are true, otherwise, it returns false. It is denoted as &&.
+  ```
+  boolean b1 = false && false; // false
+  boolean b2 = false && true;  // false
+  boolean b3 = true && false;  // false
+  boolean b4 = true && true;   // true
+  ```
+- OR
+  OR is a binary operator that returns true if at least one operand is true, otherwise, it returns false. It is denoted as ||.
+  ```
+  boolean b1 = false || false; // false
+  boolean b2 = false || true;  // true
+  boolean b3 = true || false;  // true
+  boolean b4 = true || true;   // true
+  ```
+- XOR (exclusive OR)
+  XOR (exclusive OR) is a binary operator that returns true if boolean operands have different values, otherwise, it returns false. It is denoted as ^.
+  ```
+  boolean b1 = false ^ false; // false
+  boolean b2 = false ^ true;  // true
+  boolean b3 = true ^ false;  // true
+  boolean b4 = true ^ true;   // false
+  ```
+  The XOR operator is used less often than the others. Just remember that Java has it. If you really need it, you can use it.
+
+### The precedence of Logical Operators
+Logical Operators in decreasing priority:
+1. NOT
+2. XOR
+3. AND
+4. OR
+The following variable is true:
+```
+boolean b = true && !false; // true, because !false is evaluated before &&
+```
+
+## ➡️ _Relational Operators (Comparing Values)_
+Java provides six relational operators to compare numbers:
+- == (equal to)
+- != (not equal to)
+- > (greater than)
+- >= (greater than or equal to)
+- < (less than)
+- <= (less than or equal to)
+The result of applying a relational operator to its operands will be boolean (true or false) regardless of the types of operands.
+
+In Java, you cannot write an expression like a <= b <= c. Instead, you should join two boolean expressions using logical operators like || and &&. Here is an example:
+```
+number > 100 && number < 200; // it means 100 < number < 200
+```
+
 ----
 ⬆️ [**Back to Top**](#contents)
