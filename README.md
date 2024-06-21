@@ -408,14 +408,7 @@ boolean b = true && !false; // true, because !false is evaluated before &&
 ```
 
 ## ➡️ _Relational Operators (Comparing Values)_
-Java provides six relational operators to compare numbers:
-- == (equal to)
-- != (not equal to)
--  > (greater than)
--  >= (greater than or equal to)
-- < (less than)
-- <= (less than or equal to)
-The result of applying a relational operator to its operands will be boolean (true or false) regardless of the types of operands.
+![Screenshot 2024-06-21 at 12 27 47 PM](https://github.com/izzatkarimov/MyJavaNotes/assets/108251704/44ddcedd-01d9-4bb3-ab0a-2bdec60eafd3)
 
 In Java, you cannot write an expression like a <= b <= c. Instead, you should join two boolean expressions using logical operators like || and &&. Here is an example:
 ```
