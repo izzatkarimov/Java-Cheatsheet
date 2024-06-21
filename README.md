@@ -133,5 +133,115 @@ var language = "Java"; // String
 var version = 10; // int
 ```
 > This feature can be a bit controversial: on the one hand, it allows your code to be more concise. On the other hand, since it doesn't indicate the type explicitly, it may affect the code readability in a bad way. For now, it's enough to understand the basic idea. We will not use type inference in our theory so that our educational platform is suitable for people who use earlier versions of Java. But if you would like to practice it, you may use type inference in our exercises as they fully support Java 10.
+
+## Reading Input with Scanner
+The simplest method to obtain data from the standard input is using the standard class Scanner. It allows a program to read values of various types, like strings or numbers, from the standard input. To use this class:
+1. You should add the following import statement at the top of your file with the source code.
+```
+import java.util.Scanner;
+```
+2. After the import, add a class with this construction:
+```
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+    }
+}
+```
+3. In the main method, we make an object of Scanner class, which allows us to use its methods. System.in signals that the program will read the text that you entered in the standard input. You'll need this line exactly as it is for now.
+The Scanner class offers two ways to read strings. If your input is an integer number or a single word, you can use the next() method. For example, the following code snippet reads the user's name and prints a hello message:
+```
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.next();
+        System.out.println("Hello, " + name + "!");
+    }
+}
+```
+For example, if the user enters their name as James, the program's output will be:
+```
+Hello, James!
+```
+If you enter an integer number like 123 as the user's input, the program will output this number. Remember that the next() method will store 123 or some other integer number as a string, even if we know that this string represents a number.
+```
+Hello, 123!
+```
+Now, what if a user inputs a compound name like Erich Maria? The program will only output the first word:
+```
+Hello, Erich!
+```
+In this case, you'll need to invoke the next() method again:
+```public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String firstName = scanner.next(); // "Erich"
+        String lastName = scanner.next(); // "Maria"
+        System.out.println("Hello, " + firstName + " " + lastName  + "!");
+    }
+}
+```
+4. nextLine()
+It would be more efficient to use another method, the nextLine() method, which reads and outputs the entire line:
+```
+Hello, Erich Maria!
+```
+### Reading a Multiline Input
+Let's explore this topic with an example:
+```
+|This is a simple
+
+multiline input,
+
+that is being read
+```
+If we call the next() method, the program will read the input up to the whitespace:
+```
+This| is a simple
+
+multiline input,
+
+that is being read
+```
+After invoking the nextLine() method, the program reads the remaining line starting from the whitespace. If there is such a line in your input, the nextLine() places the cursor at the start of the new line:
+```
+This is a simple
+
+|multiline input,
+
+that is being read
+```
+Here's a tricky thing about the nextLine() method, which also shows a major difference between next() and nextLine() methods. As you know already, the program will read input from the cursor's position to the new line (again, if such a line exists in your input). In this example, the cursor is placed before the new line. This means the nextLine() method will return an empty line ("") and place the cursor at the start of a new line.
+```
+Before:
+This is a simple
+
+multiline input,|
+
+that is being read
+
+After:
+This is a simple
+
+multiline input,
+
+|that is being read
+```
+To sum it all up, let's look at the entire code and consider what variables we've just read:
+```
+import java.util.Scanner; 
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);  
+
+        String word1 = scanner.next(); // "This"
+        String line1 = scanner.nextLine(); // " is a simple" 
+        String word2 = scanner.next(); // "multiline"
+        String word3 = scanner.next(); // "input,"
+        String line2 = scanner.nextLine(); // "" 
+    }
+}
+```
 ----
 ⬆️ [**Back to Top**](#contents)
