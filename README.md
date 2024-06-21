@@ -134,6 +134,26 @@ var version = 10; // int
 ```
 > This feature can be a bit controversial: on the one hand, it allows your code to be more concise. On the other hand, since it doesn't indicate the type explicitly, it may affect the code readability in a bad way. For now, it's enough to understand the basic idea. We will not use type inference in our theory so that our educational platform is suitable for people who use earlier versions of Java. But if you would like to practice it, you may use type inference in our exercises as they fully support Java 10.
 
+### Naming Variables
+Java has some rules for naming varibles:
+    - names are case-sensitive
+    - a name can inclue Unicode letters, digits, and two special characters ($, _);
+    - a name cannot start with a digit;
+    - a name must not be a keyword (class, static, int, etc. are illegal names).
+Based on these rules, you may conclude that whitespaces are not allowed in the name of a variable. 
+It is important not to break these rules; otherwise, the program will not work
+
+Here are some valid names of variables:
+```
+number, $ident, bigValue, _val, abc, k, var
+```
+
+### Naming Conventions for Variables
+Also, there are the following conventions for naming variables:
+    - if a variable name is a single word it should be in lowercase (for instance: number, price);
+    - if a variable name includes multiple words it should be in lowerCamelCase, i.e. the first word should be in lowercase and each word after the first should have its first letter written in uppercase (for instance: numberOfCoins);
+    - variable names should not start with _ and $ characters, although they are allowed;
+    - choose a name that makes sense, e.g. score makes more sense than s, although they are both valid.
 ## Reading Input with Scanner
 The simplest method to obtain data from the standard input is using the standard class Scanner. It allows a program to read values of various types, like strings or numbers, from the standard input. To use this class:
 1. You should add the following import statement at the top of your file with the source code.
