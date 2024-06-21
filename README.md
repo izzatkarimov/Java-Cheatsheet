@@ -452,7 +452,21 @@ if (expression0) {
 }
 ```
 
-## ➡️ _Ternary Operator_
+## ➡️ _Ternary Conditional Operator_
+The general syntax of the ternary operator is the following:
+```
+result = condition ? trueCase : elseCase;
+```
+Here, the condition is a Boolean expression that evaluates to either true or false. If this expression is true, the ternary operator evaluates trueCase, otherwise elseCase is evaluated. It is important that trueCase and elseCase are expressions which can be reduced to a common type.
+
+Example:
+Imagine you need to compare two integer numbers and print equal in case they are equal, more if the first one has a bigger value than the second and less otherwise. The task can be solved using a combination of 2 ternary operators:
+```
+int a = ...; // it's initialized by a value
+int b = ...; // it's initialized by a value
+String result = a == b ? "equal" :
+                a > b ? "more" : "less";
+```
 
 ----
 ⬆️ [**Back to Top**](#contents)
