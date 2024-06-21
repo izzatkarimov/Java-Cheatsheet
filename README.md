@@ -155,7 +155,7 @@ Also, there are the following conventions for naming variables:
 - variable names should not start with _ and $ characters, although they are allowed;
 - choose a name that makes sense, e.g. score makes more sense than s, although they are both valid.
 
-## Reading Input with Scanner
+## ➡️ _Reading Input with Scanner_
 The simplest method to obtain data from the standard input is using the standard class Scanner. It allows a program to read values of various types, like strings or numbers, from the standard input. To use this class:
 1. You should add the following import statement at the top of your file with the source code.
 ```
@@ -264,7 +264,7 @@ public class Main {
     }
 }
 ```
-## Coding Style Conventions
+## ➡️ _Coding Style Conventions_
 > Good coding style is like correct punctuation: you can manage without it, butitsuremakesthingseasiertoread. – The Tidyverse Style Guide by Hadley Wickham
 
 In most cases, companies and individual developers do not create their own style conventions. There are two generally accepted Java conventions that are used all over the world:
@@ -310,5 +310,54 @@ public class NumberOfSpacesExample {
 ### The length of a line
 The last recommendation concerns the maximum length of a line. The Oracle Code Conventions propose avoiding lines longer than 80 characters. Plenty of developers consider this restriction as outdated since modern monitors can easily display longer lines, whereas others would go on following this rule, which is handy, for example, if laptops are used. Keeping ourselves off this dispute, we will use 80 characters in the course to avoid scrollbars in our examples and web code editor. We recommend that you do the same while learning here, but keep in mind that you can violate this limitation after you start working on a real project or learning elsewhere. Other popular limit values are 100, 120, and sometimes even 140 characters.
 
+## ➡️ _Arithmatic Operations_
+#### Binary Arithmatic Operators:
+- addition +
+- subtraction -
+- multiplication *
+- division /
+- remainder %
+These operators are called binary because they take two values as operands.
+The following example prints the results of addition, subtraction, and multiplication.
+```
+System.out.println(13 + 25); // prints 38
+System.out.println(20 + 70); // prints 90
+
+System.out.println(70 - 30); // prints 40
+System.out.println(30 - 70); // prints -40
+
+System.out.println(21 * 3);  // prints 63
+System.out.println(20 * 10); // prints 200
+```
+The / operator returns the integer part of the division of two integer numbers, and any fractional part is discarded.
+```
+System.out.println(8 / 3); // prints 2
+System.out.println(41 / 5); // prints 8
+```
+The % in Java is the modulus or remainder operator. It returns the remainder of the division of two numbers. Note, that when the dividend is less than the divisor, the quotient is zero and the remainder equals the dividend.
+```
+System.out.println(10 % 3); // prints 1, because 10 divided by 3 leaves a remainder of 1
+System.out.println(12 % 4); // prints 0, because 12 divided by 4 leaves no remainder
+System.out.println(5 % 9); // prints 5, because 5 divided by 9 leaves a remainder of 5
+```
+#### Unary Operators
+In Java, a unary operator is an operator that performs an operation on a single operand, unlike binary operators that require two operands.
+The unary plus operator indicates a positive value. It's an optional operator.
+```
+System.out.println(+5); // prints 5
+```
+The unary minus operator negates a value or an expression.
+```
+System.out.println(-8);  // prints -8
+System.out.println(-(100 + 4)); // prints -104
+```
+#### The precedence order
+There is a precedence order of all arithmetic operators, including parentheses. The list below is sorted from the highest to the lowest precedence level.
+1. Parantheses
+2. Unary Plus / Minus
+3. Multiplication, division, the remainder
+4. addition, subtraction
+
+## ➡️ _Arithmatic Operations_
 ----
 ⬆️ [**Back to Top**](#contents)
