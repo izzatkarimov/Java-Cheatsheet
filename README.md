@@ -33,8 +33,9 @@ public class HelloWorld {
 }
 ```
 - `public class HelloWorld`:
-    - This code declares the class HelloWorld
-    - `public` - Access Modifier. This indicates that this class is accessible from any other class.
+    - It is the basic unit of a program. Every Java program must have at least one class. The definition of a class consists of the class keyword followed by the class name. A class can have any name, such as App, Main, or Program, but it must not start with a digit. A set of braces {...} encloses the body of a class.
+    - This code declares the class HelloWorld.
+    - `public` - Access Modifier. This indicates that this class is accessible from any other class. 
     - `class` - This is a special keyword in Java and is used to create a class.
     - `HelloWorld` - This is the name of the class. By convention, class names in Java should start with an uppercase letter.
 - `public static void main(String[] args)`:
