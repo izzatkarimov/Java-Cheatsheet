@@ -415,5 +415,44 @@ In Java, you cannot write an expression like a <= b <= c. Instead, you should jo
 number > 100 && number < 200; // it means 100 < number < 200
 ```
 
+## ➡️ _Conditional Statement_
+The single if case:
+```
+if (expression) {
+    // body: do something
+}
+```
+The if > else cases:
+```
+if (expression) {    
+    // do something
+} else {
+    // do something else
+}
+```
+For example:
+```
+int num = ...; // the num is initialized by some value
+
+if (num % 2 == 0) {
+    System.out.println("It's an even number");
+} else {    
+    System.out.println("It's an odd number");
+}
+```
+The if > else if cases:
+```
+if (expression0) {
+    // do something
+} else if (expression1) {
+    // do something else 1
+// ...
+} else if (expressionN) {
+    // do something else N
+}
+```
+
+## ➡️ _Ternary Operator_
+
 ----
 ⬆️ [**Back to Top**](#contents)
