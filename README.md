@@ -154,6 +154,7 @@ Also, there are the following conventions for naming variables:
 - if a variable name includes multiple words it should be in lowerCamelCase, i.e. the first word should be in lowercase and each word after the first should have its first letter written in uppercase (for instance: numberOfCoins);
 - variable names should not start with _ and $ characters, although they are allowed;
 - choose a name that makes sense, e.g. score makes more sense than s, although they are both valid.
+
 ## Reading Input with Scanner
 The simplest method to obtain data from the standard input is using the standard class Scanner. It allows a program to read values of various types, like strings or numbers, from the standard input. To use this class:
 1. You should add the following import statement at the top of your file with the source code.
