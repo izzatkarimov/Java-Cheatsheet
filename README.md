@@ -371,7 +371,8 @@ There is a precedence order of all arithmetic operators, including parentheses. 
 4. addition, subtraction
 
 ## ➡️ _Booleans_
-[!Note]
+
+> [!NOTE]
 > You cannot assign an integer value to a boolean. In Java, 0 is not the same as false.
 
 ### Logical Operators
