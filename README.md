@@ -4,7 +4,7 @@
 
 ## Contents
 | Concepts | Notes |
-| --- | --- | --- | --- |
+| --- | --- |
 | What is Java? | [Click Here!](#%EF%B8%8F-what-is-java) |
 | Hello World! | [Click Here!](#%EF%B8%8F-hello-world) |
 | Literals in Java | [Click Here!](##%EF%B8%8F-literals-in-java) |
