@@ -21,19 +21,8 @@
 
 | Concepts | Notes |
 | --- | --- |
-| Introduction to Java | | What is Java? | [Click Here!](#%EF%B8%8F-what-is-java) |
-| Hello World! | [Click Here!](#%EF%B8%8F-hello-world) |
-| Literals in Java | [Click Here!](##%EF%B8%8F-literals-in-java) |
-| Printing Data | [Click Here!](#%EF%B8%8F-printing-data) |
-| Variables | [Click Here!](#%EF%B8%8F-variables) |
-| Reading Input with Scanner | [Click Here!](#%EF%B8%8F-reading-input-with-scanner) |
-| Coding Style Conventions | [Click Here!](#%EF%B8%8F-coding-style-conventions) |
-| Arithmatic Operations | [Click Here!](#%EF%B8%8F-arithmatic-operations) |
-| Booleans | [Click Here!](#%EF%B8%8F-booleans) |
-| Relational Operators (Comparing Values) | [Click Here!](#%EF%B8%8F-relational-operators-comparing-values) |
-| Conditional Statement | [Click Here!](#%EF%B8%8F-conditional-statement) |
-| Ternary Conditional Operator | [Click Here!](#%EF%B8%8F-ternary-conditional-operator) |
-| Java Program | [Click Here!](#) | |
+| Introduction to Java | What is Java? | [Click Here!](#%EF%B8%8F-what-is-java)
+                         Hello World! | [Click Here!](#%EF%B8%8F-hello-world) |
 
 
 
