@@ -19,13 +19,6 @@
 | Ternary Conditional Operator | [Click Here!](#%EF%B8%8F-ternary-conditional-operator) |
 | Java Program | [Click Here!](#) |
 
-| Concepts | Notes |
-| --- | --- |
-| Introduction to Java | What is Java? | [Click Here!](#%EF%B8%8F-what-is-java)
-                         Hello World! | [Click Here!](#%EF%B8%8F-hello-world) |
-
-
-
 ## Notes
 
 ## ➡️ _What is Java?_
