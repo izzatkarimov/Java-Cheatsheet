@@ -499,5 +499,86 @@ Both increment and decrement operators have two forms, which are very important 
   System.out.println(a); // 5
   System.out.println(b); // 4
   ```
+
+## ➡️ _While (Pre-Test) Loops and do-While (Post-test) Loops_
+### While Loops
+The while loop consists of a block of code and a condition (a Boolean expression). If the condition is true, the code within the block is executed. This code repeats until the condition becomes false. Since this loop checks the condition before the block is executed, the control structure is also known as a pre-test loop. You can think of the while loop as a repetitive conditional statement.
+
+The basic syntax of the while loop in Java:
+```
+while (condition) {
+    // body: do something repetitive
+}
+```
+
+It is also possible to write an infinite loop if the condition is invariably true:
+```
+while (true) {
+    // body: do something indefinitely
+}
+```
+Example:
+```
+int i = 0;
+while (i < 5) {
+    System.out.println(i);
+    i++;
+}
+// next statement
+```
+Let's go through how this loop works.
+1. The value 0 is assigned to variable i.
+2. Before the first execution of the loop's body, the program checks if the condition i < 5 is true. In our case, i is 0, so the condition is true and the body of the loop starts executing.
+3. The body has two statements: displaying the current value of i and incrementing it by 1. After this is done, the expression i < 5 is evaluated again.
+4. Now i equals 1, so the condition is still true, and the loop's body is repeated again
+5. This is repeated until i has taken the value 5, after which the expression i < 5 ceases to be true, and the execution of this loop terminates. The program proceeds to the next statement after the loop.
+
+```
+Output:
+0
+1
+2
+3
+4
+```
+### The do-while loop 
+In the do-while loop, the body is executed first, while the condition is tested afterwards. If the condition is true, statements within the block are executed again. This repeats until the condition becomes false. Because do-while loops check the condition after the block is executed, the control structure is often also known as a post-test loop. In contrast to the while loop, which tests the condition before the code within the block is executed, the do-while loop is an exit-condition loop. So, the code within the block is always executed at least once.
+
+This loop contains three parts: the do keyword, a body, and while(condition):
+```
+do {
+    // body: do something
+} while (condition);
+```
+Example:
+A good example of using it is a program that reads data from the standard input until a user enters a certain number or string. The following program reads integer numbers from the standard input and displays them. If the number 0 is entered, the program prints it and then stops. The following example demonstrates the do-while loop:
+```
+public class DoWhileDemo {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int value;
+        do {
+            value = scanner.nextInt();
+            System.out.println(value);
+        } while (value != 0);
+    }
+}
+```
+Input Numbers:
+```
+1 2 4 0 3
+```
+Output:
+```
+1
+2
+4
+0
+```
+
+In practice, the do-while loop is used less than the while loop. It is used when code inside the loop must be executed at least once.
+
 ----
 ⬆️ [**Back to Top**](#contents)
