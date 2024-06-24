@@ -18,6 +18,9 @@
 | Relational Operators (Comparing Values) | [Click Here!](#%EF%B8%8F-relational-operators-comparing-values) |
 | Conditional Statement | [Click Here!](#%EF%B8%8F-conditional-statement) |    
 | Ternary Conditional Operator | [Click Here!](#%EF%B8%8F-ternary-conditional-operator) |
+| Increment & Decrement | [Click Here!](#%EF%B8%8F-increment--decrement) |
+| While (Pre-Test) Loops and do-While (Post-test) Loops | [Click Here!](#%EF%B8%8F-while-pre-test-loops-and-do-while-post-test-loops) |
+| For Loops | [Click Here!](#%EF%B8%8F-for-loops) |
 | Java Program | [Click Here!](#) |
 
 ## Notes
