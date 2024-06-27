@@ -17,36 +17,16 @@
 - [Variables](#%EF%B8%8F-reading-input-with-scanner)
 - [Reading Input with Scanner](#%EF%B8%8F-reading-input-with-scanner)
 - [Coding Style Conventions](#%EF%B8%8F-coding-style-conventions)
-- Arithmatic Operations
-- Booleans
-- Relational Operators
-- Conditional Statement
-- Ternary Conditional Operator
-- Increment & Decrement
-- While (pre-test) Loops and do-While (post-test) Loops
-- For Loops 
+- [Arithmatic Operations](#%EF%B8%8F-arithmatic-operations)
+- [Booleans](#%EF%B8%8F-booleans)
+- [Relational Operators (Comparing Values)](#%EF%B8%8F-relational-operators-comparing-values)
+- [Conditional Statement](#%EF%B8%8F-conditional-statement)
+- [Ternary Conditional Operator](#%EF%B8%8F-ternary-conditional-operator)
+- [Increment & Decrement](#%EF%B8%8F-increment--decrement)
+- [While (pre-test) Loops and do-While (post-test) Loops](#%EF%B8%8F-while-pre-test-loops-and-do-while-post-test-loops)
+- [For Loops](#%EF%B8%8F-for-loops)
 
 </details>
-
-
-| Topics | Notes |
-| --- | --- |
-| What is Java? | [Click Here!](#%EF%B8%8F-what-is-java) |
-| Hello World! | [Click Here!](#%EF%B8%8F-hello-world) |
-| Literals in Java | [Click Here!](##%EF%B8%8F-literals-in-java) |
-| Printing Data | [Click Here!](#%EF%B8%8F-printing-data) |
-| Variables | [Click Here!](#%EF%B8%8F-variables) |
-| Reading Input with Scanner | [Click Here!](#%EF%B8%8F-reading-input-with-scanner) |
-| Coding Style Conventions | [Click Here!](#%EF%B8%8F-coding-style-conventions) |
-| Arithmatic Operations | [Click Here!](#%EF%B8%8F-arithmatic-operations) |
-| Booleans | [Click Here!](#%EF%B8%8F-booleans) |
-| Relational Operators (Comparing Values) | [Click Here!](#%EF%B8%8F-relational-operators-comparing-values) |
-| Conditional Statement | [Click Here!](#%EF%B8%8F-conditional-statement) |    
-| Ternary Conditional Operator | [Click Here!](#%EF%B8%8F-ternary-conditional-operator) |
-| Increment & Decrement | [Click Here!](#%EF%B8%8F-increment--decrement) |
-| While (Pre-Test) Loops and do-While (Post-test) Loops | [Click Here!](#%EF%B8%8F-while-pre-test-loops-and-do-while-post-test-loops) |
-| For Loops | [Click Here!](#%EF%B8%8F-for-loops) |
-| Java Program | [Click Here!](#) |
 
 ## Notes
 
