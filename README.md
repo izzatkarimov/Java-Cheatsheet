@@ -10,16 +10,21 @@
 
 ### Table of Contents
 
-- What is Java?
-- Hello World!
-- Literals in Java
-- Printing Data
-- Variables
-- Reading Input with Scanner
-- Coding Style Conventions
+- [What is Java?](#%EF%B8%8F-what-is-java)
+- [Hello World!](#%EF%B8%8F-hello-world)
+- [Literals in Java](##%EF%B8%8F-literals-in-java)
+- [Printing Data](#%EF%B8%8F-printing-data)
+- [Variables](#%EF%B8%8F-reading-input-with-scanner)
+- [Reading Input with Scanner](#%EF%B8%8F-reading-input-with-scanner)
+- [Coding Style Conventions](#%EF%B8%8F-coding-style-conventions)
 - Arithmatic Operations
 - Booleans
 - Relational Operators
+- Conditional Statement
+- Ternary Conditional Operator
+- Increment & Decrement
+- While (pre-test) Loops and do-While (post-test) Loops
+- For Loops 
 
 </details>
 
