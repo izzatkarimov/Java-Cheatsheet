@@ -4,6 +4,26 @@
 
 ## Contents
 
+<details>
+
+<summary>Introduction to Java</summary>
+
+### Table of Contents
+
+- What is Java?
+- Hello World!
+- Literals in Java
+- Printing Data
+- Variables
+- Reading Input with Scanner
+- Coding Style Conventions
+- Arithmatic Operations
+- Booleans
+- Relational Operators
+
+</details>
+
+
 | Topics | Notes |
 | --- | --- |
 | What is Java? | [Click Here!](#%EF%B8%8F-what-is-java) |
